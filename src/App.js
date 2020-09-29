@@ -1,6 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react';
 import TodoList from './TodoList'
-//import uuidv4 from 'uuid/v4'
 import { v4 as uuidv4 } from 'uuid'
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
@@ -36,7 +35,6 @@ function handleAddTodo(e){
   setTodos(prevTodos => {
     return [...prevTodos,{ id: uuidv4(), name: name, complete: false}]
   })
-  //console.log(name)
   todoNameRef.current.value = null
 }
 
