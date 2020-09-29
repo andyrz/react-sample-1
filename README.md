@@ -1,3 +1,6 @@
+This is a small React application that allows the user to create and manage a simple list of Todo's. Topics covered are create-react-app, components, state, props, rendering, and event handling.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
